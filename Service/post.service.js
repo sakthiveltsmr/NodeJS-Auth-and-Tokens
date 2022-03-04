@@ -29,7 +29,7 @@ service = {
       //insert
       res.send({ ...req.body, _id });
     } catch (err) {
-      console.log("Error for create pOst", err);
+      console.log("Error for create post", err);
       res.sendStatus(500);
     }
   },

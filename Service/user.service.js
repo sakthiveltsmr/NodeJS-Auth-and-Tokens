@@ -50,7 +50,7 @@ service = {
       // jwt sign(two param : {json: unique id}, "password");
       const authToken = jwt.sign(
         { userId: user._id, email: user.email },
-        "muthu@123"
+        "sakthi@123"
       ); // generates tokens for parti- user accessing api;
 
       res.send({ Token: authToken });
